@@ -93,7 +93,7 @@ width: 45%;
 max-width: none;
 }
 .image {
-background-image: url("test_w.png");
+background-image: "test_w.png";
 background-repeat: no-repeat;
 background-size: contain;
 background-position: center;
