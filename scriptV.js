@@ -67,5 +67,9 @@ function save() {
     localStorage.setItem("username", document.getElementById("username").value);
     localStorage.setItem("email", document.getElementById("email").value);
     localStorage.setItem("password", document.getElementById("password").value);
+    
+}
+
+function redirect() {
     window.location.href = "newPage.html"; 
 }
