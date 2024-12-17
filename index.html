@@ -1,83 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link
-rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-crossorigin="anonymous"
-/>
-<link rel="stylesheet" href="styleV.css">
-<script type="text/javascript" src="scriptV.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="styleV.css">
+    <script type="text/javascript" src="scriptV.js"></script>
 </head>
 <body>
-<div class="container">
-<div class="content">
-<div class="logo">
-<img src="https://svgshare.com/i/_go.svg" alt="" />
-</div>
-<div class="image"></div>
-<div class="text">
-Start for free & get <br />
-attractive offers today !
-</div>
-</div>
-<form id="form">
-<div class="title">Get Started</div>
-<div>
-<label for="username">User Name</label>
-<i class="fas fa-user"></i>
-<input
-type="text"
-name="username"
-id="username"
-placeholder="Joy Shaheb "
-/>
-<i class="fas fa-exclamation-circle failure-icon"></i>
-<i class="far fa-check-circle success-icon"></i>
-<div class="error"></div>
-</div>
-<div>
-<label for="email">Email</label>
-<i class="far fa-envelope"></i>
-<input
-type="email"
-name="email"
-id="email"
-placeholder="abc@gmail.com"
-/>
-<i class="fas fa-exclamation-circle failure-icon"></i>
-<i class="far fa-check-circle success-icon"></i>
-<div class="error"></div>
-</div>
-<div>
-<label for="password">Password</label>
-<i class="fas fa-lock"></i>
-<input
-type="password"
-name="password"
-id="password"
-placeholder="Password here"
-/>
-<i class="fas fa-exclamation-circle failure-icon"></i>
-<i class="far fa-check-circle success-icon"></i>
-<div class="error"></div>
-</div>
-  <div>
-    <label for="confirm-password">Confirm Password</label>
-    <i class="fas fa-lock"></i>
-    <input
-        type="password"
-        name="confirm-password"
-        id="confirm-password"
-        placeholder="Confirm Password here"
-    />
-    <i class="fas fa-exclamation-circle failure-icon"></i>
-    <i class="far fa-check-circle success-icon"></i>
-    <div class="error"></div>
-</div>
-<button id="btn" type="submit">Submit</button>
-</form>
-</div>
+    <div class="container">
+        <div class="content">
+            <div class="logo">
+                <img src="test_w.png" alt="" />
+            </div>
+            <div class="image"></div>
+            <div class="text">
+                Start for free & get <br />
+                attractive offers today!
+            </div>
+        </div>
+        <form id="form">
+            <div class="title">Get Started</div>
+            <div>
+                <label for="username">User Name</label>
+                <i class="fas fa-user"></i>
+                <input type="text" name="username" id="username" placeholder="Joy Shaheb" />
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <i class="far fa-envelope"></i>
+                <input type="email" name="email" id="email" placeholder="abc@gmail.com" />
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="password" id="password" placeholder="Password here" />
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <div>
+                <label for="confirm-password">Confirm Password</label>
+                <i class="fas fa-lock"></i>
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password here" />
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="far fa-check-circle success-icon"></i>
+                <div class="error"></div>
+            </div>
+            <button id="btn" type="submit">Submit</button>
+            <button type="button" onclick="sendMail()">Send</button>
+            <button type="button" onclick="saveAndRedirect()">Next Page</button>
+        </form>
+    </div>
 </body>
 </html>
-
