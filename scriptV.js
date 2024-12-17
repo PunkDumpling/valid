@@ -69,7 +69,6 @@ function save() {
     localStorage.setItem("password", document.getElementById("password").value);
     
 }
-
 function redirect() {
     window.location.href = "newpage.html"; 
 }
