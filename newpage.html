@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Page</title>
+</head>
+<body>
+    <h1>Welcome, <span id="user-name"></span>!</h1>
+    <p>Your email: <span id="user-email"></span></p>
+    <p>Your password: <span id="user-password"></span></p>
+    <script>
+        document.getElementById("user-name").innerText = localStorage.getItem("username");
+        document.getElementById("user-email").innerText = localStorage.getItem("email");
+
+document.getElementById("user-password").innerText = localStorage.getItem("password");
+    </script>
+</body>
+</html>
