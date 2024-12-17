@@ -63,7 +63,7 @@ function sendMail() {
     window.location.href = "mailto:matthewbarisov@gmail.com?subject=Registration Confirmation&body=" + body;
 }
 
-function saveAndRedirect() {
+function save() {
     localStorage.setItem("username", document.getElementById("username").value);
     localStorage.setItem("email", document.getElementById("email").value);
     localStorage.setItem("password", document.getElementById("password").value);
