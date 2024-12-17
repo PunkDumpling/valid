@@ -71,5 +71,5 @@ function save() {
 }
 
 function redirect() {
-    window.location.href = "newPage.html"; 
+    window.location.href = "newpage.html"; 
 }
